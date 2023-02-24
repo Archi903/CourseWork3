@@ -1,0 +1,13 @@
+package me.peleshyan.coursework3.model;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+public class Quantity {
+    public Socks socks;
+    public int quantity;
+}
